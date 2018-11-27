@@ -13,7 +13,7 @@
 
 function selectionSort(array) {
     var j=0
-    while(j!=array.length){
+    while(j!=array.length-1){
         var tampung=[]
         var temp=j
         for(var i= j; i<array.length; i++){
@@ -30,5 +30,5 @@ function selectionSort(array) {
     return array
 }
 
-console.log(selectionSort([33,2,52,106,73,22,1,3]))
+console.log(selectionSort([33,2,52,106,73,22,1,3,4,5,2]))
 console.log(selectionSort([11,5,99,22,13]))
