@@ -23,4 +23,4 @@ function sort(input) {
 
 
 console.log(sort([33, 2, 52, 106, 1, 73]));
-// console.log(sort([13, 5, 22, 99, 11]));
+console.log(sort([13, 5, 22, 99, 11]));
