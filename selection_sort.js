@@ -16,13 +16,12 @@ function selectionSort(array) {
     while(j!=array.length){
         var tampung=[]
         var temp=j
-        var checkArray=array[j]
         for(var i= j; i<array.length; i++){
-            if(array[i] < checkArray){
+            if(array[i] < array[temp]){
                 temp=i
-                checkArray = array[i]
             }
         }
+        console.log(array)
         tampung = array[j]
         array[j]=array[temp]
         array[temp] = tampung
